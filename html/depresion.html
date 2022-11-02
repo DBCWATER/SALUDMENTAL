@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Depresión </title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+.container-cover{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image:url("https://img.freepik.com/vector-premium/banner-dia-mundial-salud-mental_188398-968.jpg?w=2000");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.container-info-cover{
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.container-info-cover h1{
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    text-align: center;
+    line-height: 90px;
+    letter-spacing: -8px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;  
+    background: rgba(255, 255, 255, 0.899);  
+}
+
+.container-content{
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    width: 80%;
+    height: 50%;
+    padding: 20px;
+    padding-bottom: 40px;
+    box-shadow: -10px 0 20px -30px black;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;    
+    background-color: #fff;
+}
+
+article:before{
+    content: '';
+    width: 100%;
+    height: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #46a2fd;
+}
+
+article h1{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+article p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #3c3c3c;
+}
+
+article img{
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+.container-aside aside{
+  width: 320px;
+  border-right: 6px;
+  box-shadow: 0 0 20px -20px black;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+.container-aside aside img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-aside aside h2,
+.container-aside aside p{
+    padding: 5px;
+    margin-left: 1%;
+    margin-right: 14%;
+}
+
+.container-aside aside button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: #46a2fd;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.container-aside aside button:hover{
+    opacity: 0.9;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container-cover">
+        <div class="container-info-cover">
+       </div>
+
+    <div class="container-content">
+        <article>
+
+            <h1>Depresión</h1>
+            <iframe width="500" height="250" src="https://www.youtube.com/embed/oa-JpB3ZZrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Grupo de afecciones asociadas a los cambios de humor de una persona, como la depresión o el trastorno bipolar.</p>
+                <img src="https://cobidu.co.uk/shared/images/general/57_mental-health_607219ac4f969.png" width="200" alt="">
+                <h2>Características de la depresión</h2>
+                <p>Las personas con depresión suelen presentar varios de los siguientes síntomas: pérdida de energía; cambios en el apetito; necesidad de dormir más o menos de lo normal; ansiedad; disminución de la concentración; indecisión; inquietud; sentimiento de inutilidad, culpabilidad o desesperanza; y pensamientos de autolesión</p>
+                <br>
+                <h2>Depresión mayor</h2>
+                <p> La depresión mayor es un trastorno del estado de ánimo. Se presenta cuando los sentimientos de tristeza, pérdida, ira o frustración interfieren con la vida diaria durante un largo período de tiempo. También cambia la manera en la que funciona el cuerpo.
+                </p>
+                <img src="data:image/jpeg;base64,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" alt="" 
+                width="300px" alt=""> 
+        
+                <div>
+            
+                    <h2>Trastorno bipolar</h2>
+                    <p>Trastorno que provoca altibajos emocionales, que van desde trastornos de depresión hasta episodios maníacos. </p>
+                    <img src="https://i0.wp.com/www.zeropsicologos.com/blog/wp-content/uploads/2021/08/bipolar.jpg?fit=1000%2C667&ssl=1 alt="
+                        width="300px">
+                </div>
+                <div>
+                    <h2>Depresión psicótica</h2>
+                    <p>La psicosis es una pérdida del contacto con la realidad. Usualmente incluye: Delirios: falsas creencias acerca de lo que está sucediendo o de lo que uno es. </p>
+                       <img src="data:image/jpeg;base64,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" alt=""
+                              width="300px"
+                    </article>
+                               
+            </article>
+
+
+        <div class="container-aside">	
+            <aside>
+                <img src="img/img1.jpg" alt="">
+        </article>
+
+        <div class="container-aside">	
+
+            <aside>
+            <img src="https://cobidu.co.uk/shared/images/general/57_mental-health_607219ac4f969.png" alt="">
+            <h2>Salud Mental</h2>
+            <p>La salud mental es, en términos generales, el estado de equilibrio entre una persona y su entorno socio-cultural que garantiza su participación laboral, intelectual, las relaciones para alcanzar un bienestar y calidad de vida. Comúnmente, se utiliza el término “salud mental” de manera análoga al de “salud física” o “estado físico”</p>
+            <a href="file:///C:/Users/Familia%20bravo/Desktop/home.html"><button>leer más</button></a>
+        </aside>
+            <aside>
+                <img src="https://static3.abc.es/media/bienestar/2021/07/12/test-ansiedad-kXt--620x349@abc.jpg" alt="">
+                <h2>Ansiedad</h2>
+                <p>Preocupación y miedo intensos, 
+                    excesivos y continuos ante 
+                    situaciones cotidianas. Es 
+                    posible que se produzca 
+                    taquicardia, respiración
+                     agitada, sudoración y 
+                     sensación de cansancio.</p>
+                <a href="file:///C:/Users/Familia%20bravo/Desktop/Untitled-2.html"><button>leer más</button></a>
+            </aside>
+
+            <aside>
+                <img src="https://img.freepik.com/vector-premium/trastorno-obsesivo-compulsivo-u-ocd_225067-237.jpg?" alt="">
+                <h2>Trastorno obsesivo-compulsivo</h2>
+                <p>El trastorno obsesivo compulsivo se caracteriza por los pensamientos irracionales y los temores (obsesiones) que provocan comportamientos compulsivos.</p>
+                <a href="file:///C:/Users/Familia%20bravo/Desktop/html/T.O.html"><button>leer más</button></a>
+            </aside>
+
+            <aside>
+                <img src="https://nosoyasistenta.com/wp-content/uploads/2015/04/ni%C3%B1o1.jpg" alt="">
+                <h2>Trastorno de la conducta</h2>
+                <p>El trastorno de la conducta (TC) se diagnostica cuando el niño muestra un patrón continuo de agresión hacia otras personas, y graves violaciones de las reglas y normas sociales en la casa, la escuela y con los compañeros.</p>
+                <a href="file:///C:/Users/Familia%20bravo/Desktop/html/Trastorno%20de%20conducta.html"><button>leer más</button></a>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
